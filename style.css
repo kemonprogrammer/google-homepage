@@ -6,6 +6,13 @@ a{
 footer a {
     color: rgb(95, 99, 104);
 }
+
+#footer{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+}
 img {
     display: block;
     position: absolute;
