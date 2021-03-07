@@ -1,4 +1,4 @@
-a{
+a {
     color: #000;
     text-decoration: none;
     font-family: Arimo, 'Open Sans', sans-serif;
@@ -7,7 +7,8 @@ a{
 nav li a{
     font-size: 13px;
 }
-#signIn{
+
+#signIn {
     padding: 0px 12px;
     color: white;
     border: none;
@@ -20,7 +21,7 @@ li {
     float: left;
 }
 
-li a{
+li a {
     display: block;
     color: black;
     text-align: center;
@@ -28,11 +29,11 @@ li a{
     text-decoration: none;
 }
 
-li a:hover{
+li a:hover {
     text-decoration: underline;
 }
 
-.right{
+.right {
     float: right;
 }
 
@@ -55,20 +56,34 @@ footer a {
     font-size: 14px;
 }
 
-#footer{
-
+footer {
     display: block;
     width: 100%;
     margin-bottom: 0px;
 }
-img {
+
+#main{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -46px 0 0 -136px;
+    transform: translate(-50%, -50%);
 }
 
+#main button{
+    display: inline;
+    float: left;
+}
+
+img {
+    display: block;
+}
+/* 
 #logo{
-    margin: 0 auto;
+} */
+
+#searchfield{
+    display: block;
+    top: 50%;
+    position: relative;
 }
