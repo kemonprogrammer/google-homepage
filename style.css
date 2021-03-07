@@ -21,7 +21,7 @@ li a:hover {
     text-decoration: underline;
 }
 
-nav li a{
+nav li a {
     font-size: 13px;
 }
 
@@ -43,33 +43,15 @@ nav button {
     float: right;
 }
 
-div .right{
+div .right {
     line-height: 100%;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-footer ul {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
-}
-
-footer a {
-    color: rgb(95, 99, 104);
-    font-size: 14px;
-}
-
-footer {
-    display: block;
-    width: 100%;
-    margin-bottom: 0px;
 }
 
 #main {
@@ -80,11 +62,11 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-#mainbuttons{
+#mainbuttons {
     text-align: center;
 }
 
-#main button{
+#main button {
     display: inline-blcok;
     height: 36px;
     text-align: left;
@@ -106,11 +88,11 @@ img {
     display: block;
 }
 
-#logo{
+#logo {
     margin: 0 auto;
 }
 
-input#searchbox{
+input#searchbox {
     display: block;
     width: 482px;
     height: 44px;
@@ -121,10 +103,20 @@ input#searchbox{
     border-radius: 22px;
 }
 
-input#searchbox:focus-visible{
+input#searchbox:focus-visible {
     outline: none;
 }
 
-/* #searchbox:active{
-    
-} */
+footer ul {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+footer a {
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+}
