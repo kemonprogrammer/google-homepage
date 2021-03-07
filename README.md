@@ -1,5 +1,6 @@
 # Replicating the Google Homepage
 Following the tutorial on: The Odin Project
+
 Reference to original Google page: https://web.archive.org/web/20191130234759if_/https://www.google.com/
 
 ## What I have accomplished at the end of this project:
